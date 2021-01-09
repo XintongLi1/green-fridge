@@ -6,20 +6,19 @@ recipes.drop("id", axis=1)
 
 recipes["id"] = [i for i in range(1, len(recipes) + 1)]
 
+
 def split_strings(strin):
-    s = str(strin).replace("[", "")
-    s = s.replace("]", "")
+    s = str(strin).replace("[", "").replace("]", "").replace("?", "")
     return s.split(", ")
+
 
 recipes["ingredients"] = recipes["ingredients"].apply(split_strings)
 recipes["course"] = recipes["course"].apply(split_strings)
 recipes["cuisine"] = recipes["cuisine"].apply(split_strings)
 
+# Data_processing
+# ------------------------------------------------------------
+
 import joblib
+
 joblib.dump(recipes, "recipes.pkl")
-
-recipes = joblib.load("recipes.pkl")
-
-
-
-
