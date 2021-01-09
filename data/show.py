@@ -3,7 +3,7 @@ from .queries import format_strings
 from .filters import Filter
 from .find_foods import find_foods
 
-# queries been modified to allow more matches
+# queries has been modified to allow more matches
 import joblib
 
 recipes = joblib.load("recipes.pkl")

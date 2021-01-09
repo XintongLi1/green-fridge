@@ -35,7 +35,6 @@ class Queries:
 
         return self.result
 
-
     def query_based_on_recipe_name(self):
         return self.query_based_on_recipe_name_or_ingredients(1)
 
@@ -46,6 +45,7 @@ class Queries:
         if tp == 1:
             self.result = self.result[self.result.recipeName.str.contains(self.ingredient)]
         else:
-            self.result = self.result[self.result.ingredients.apply(lambda df: self.ingredient in ' '.join([str(elem) for elem in df]))]
+            self.result = self.result[
+                self.result.ingredients.apply(lambda df: self.ingredient in ' '.join([str(elem) for elem in df]))]
 
         return self.result
