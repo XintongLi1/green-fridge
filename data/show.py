@@ -28,7 +28,7 @@ class Sort_recipe:
 
 
 class Show_page:
-    def __init__(self, strings, sort_by=1, ascending=True, filters=None):
+    def __init__(self, strings, sort_by=0, ascending=True, filters=None):
         # filters - a list of tuples of length 2,
            # example: [("rating", 4.0), ("cuisine", "Chinese"), ("course", "Desserts")]
         self.foods = find_foods(strings)
