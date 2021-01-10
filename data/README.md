@@ -16,7 +16,7 @@
 > - sort_by=1: sort by "rating",
 > - sort_by=2, sort by "cooking time"
 
-> filters: a list of Filter
+> filters: a list of filter, presented in tuple `(<attribute>, <info>)`
 
 ##### 2. Class: Filter
 * fields:  recipe_, attribute, info

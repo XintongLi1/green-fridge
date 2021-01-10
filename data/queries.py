@@ -7,8 +7,10 @@ dataset_size = len(recipes)
 import random
 import pandas as pd
 
+
 def format_strings(strin):
     return strin.title()
+
 
 class Queries:
     def __init__(self, ingredient=str, query_type=1):
