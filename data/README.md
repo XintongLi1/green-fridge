@@ -1,8 +1,8 @@
-#### Queries to Recipes
+## Queries to Recipes
  
 ----------------------------------------------------------------
 
-**Function** `show(strings, sort_by=0, ascending=True, filters=None)`
+### **Function** `show(strings, sort_by=0, ascending=True, filters=None)`
 - returns required recipes 
 
 > strings: information on receipt, a list of strings
