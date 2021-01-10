@@ -1,0 +1,8 @@
+array(7) {
+  ["module"] => string(5) "oauth"
+  ["controller"] => string(9) "authorize"
+  ["action"] => string(4) "auth"
+  ["redirect_uri"] => string(366) "https://www.google.com/a/autodns/registrar?o=02506121243962678850&d=green-fridge.space&r=DOMAIN_DISCOUNT_24&u=https://www.google.com/webmasters/verification/verification-partner-return?hl%3Dzh-CN%26domain%3Dgreen-fridge.space%26vtype%3Dvdns%26dns-type%3Ddns-auto-dns%26registrar%3DDomainDiscount24.com%2B(Key-Systems)&sig=AMnWcLMAAAAAX_r3NwnVdb7ifiD_qFEEMyWmaXYosJHx"
+  ["domain_name"] => string(18) "green-fridge.space"
+  ["auth_cid"] => string(8) "00918539"
+  ["auth_pw"] => string(15) "$85mF/FduA%MVFg"
